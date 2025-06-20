@@ -1,0 +1,35 @@
+:root {
+    /* Color */
+    --color-gray-300: #dadbe0;
+    --color-gray-900: #18191F;
+    --color-primary: #4CAF4F;
+    --color-silver: #F5F7FA;
+    --color-black: #263238;
+    --color-secondary: #263238;
+}
+
+/* Font */
+
+.body-regular-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.body-regular-3 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.body-medium-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.heading-headline-4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
