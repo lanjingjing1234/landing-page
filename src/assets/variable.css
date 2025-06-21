@@ -2,14 +2,34 @@
     /* Color */
     --color-gray-300: #dadbe0;
     --color-gray-900: #18191F;
+    --color-neutral-gray: #717171;
     --color-primary: #4CAF4F;
     --color-silver: #F5F7FA;
     --color-black: #263238;
     --color-secondary: #263238;
 }
 
-/* Font */
+.text-primary {
+    color: var(--color-primary);
+}
 
+.text-neutral-gray {
+    color: var(--color-neutral-gray);
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+/* Font */
 .body-regular-2 {
     font-weight: 400;
     font-size: 16px;
@@ -28,8 +48,27 @@
     line-height: 24px;
 }
 
+.heading-headline-1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.heading-headline-2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.heading-headline-3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
 .heading-headline-4 {
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
 }
+
